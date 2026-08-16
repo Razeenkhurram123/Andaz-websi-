@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Andaz — Women's Stitched Collection</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#211c18;--muted:#756b64;--cream:#f8f3ec;--paper:#fffdf9;--gold:#b18a50;--line:#e7ddd1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:10;background:#fffdf9ee;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{max-width:1180px;margin:auto;height:74px;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:9px;font:500 27px "Playfair Display",serif}.brand img{width:42px;height:42px;object-fit:contain}
+.links{display:flex;gap:28px;font-size:14px;color:#514942}.links a:hover{color:var(--gold)}
+.hero{min-height:650px;max-width:1180px;margin:auto;padding:70px 24px;display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:11px;color:var(--gold);font-weight:600}
+h1{font:500 clamp(60px,9vw,108px)/.9 "Playfair Display",serif;margin:18px 0 24px}.hero p{max-width:510px;color:var(--muted);font-size:17px;line-height:1.8}
+.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}.btn{padding:14px 24px;border:1px solid var(--ink);font-size:12px;letter-spacing:.1em;text-transform:uppercase}.primary{background:var(--ink);color:#fff}
+.heroart{min-height:520px;background:var(--cream);display:flex;align-items:center;justify-content:center}.heroart img{width:min(88%,530px);max-height:520px;object-fit:contain}
+section{padding:85px 24px}.inner{max-width:1180px;margin:auto}.head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:35px}h2{font:500 44px "Playfair Display",serif;margin:0}.head p{max-width:470px;color:var(--muted);line-height:1.7;margin:0}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--cream);min-height:360px;padding:25px;display:flex;flex-direction:column;justify-content:end}.number{flex:1;display:flex;align-items:center;justify-content:center;font:500 54px "Playfair Display",serif;color:#b9a992}.card h3{font:500 24px "Playfair Display",serif;margin:0 0 5px}.card span{font-size:13px;color:var(--muted)}
+.about{background:var(--cream)}.aboutgrid{max-width:1180px;margin:auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}.aboutlogo{text-align:center}.aboutlogo img{width:min(100%,380px)}.about p{color:var(--muted);line-height:1.9;font-size:16px}
+.contact{text-align:center}.contact p{color:var(--muted)}footer{border-top:1px solid var(--line);padding:28px 24px;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:760px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:45px}.heroart{min-height:380px}.products{grid-template-columns:1fr}.aboutgrid{grid-template-columns:1fr;gap:30px}h2{font-size:36px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="navin">
+<a class="brand" href="#home"><img src="assets/andaz-logo.png" alt="Andaz logo">Andaz</a>
+<nav class="links"><a href="#collection">Collection</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="home">
+<section class="hero">
+<div><div class="eyebrow">Women's Stitched Collection</div><h1>Andaz</h1>
+<p>Timeless silhouettes, graceful details and effortless Pakistani elegance — stitched for the woman who carries her own style.</p>
+<div class="buttons"><a class="btn primary" href="#collection">View Collection</a><a class="btn" href="#contact">Contact Us</a></div></div>
+<div class="heroart"><img src="assets/andaz-logo.png" alt="Andaz women's stitched collection"></div>
+</section>
+
+<section id="collection"><div class="inner"><div class="head"><h2>The Collection</h2><p>Elegant everyday pieces with a refined, feminine feel. Replace these placeholders with your product photos and prices.</p></div>
+<div class="products">
+<article class="card"><div class="number">01</div><h3>Signature Edit</h3><span>Classic stitched looks</span></article>
+<article class="card"><div class="number">02</div><h3>Festive Edit</h3><span>Graceful occasion wear</span></article>
+<article class="card"><div class="number">03</div><h3>Everyday Edit</h3><span>Effortless refined style</span></article>
+</div></div></section>
+
+<section id="about" class="about"><div class="aboutgrid"><div class="aboutlogo"><img src="assets/andaz-logo.png" alt="Andaz logo"></div>
+<div><div class="eyebrow">Our Story</div><h2>Style with Nazakat.</h2><p>Andaz brings together modern cuts and timeless South Asian elegance. Every look is designed to feel polished, feminine and easy to wear.</p></div></div></section>
+
+<section id="contact" class="contact"><div class="inner"><div class="eyebrow">Get in touch</div><h2>Let’s create your Andaz.</h2><p>Instagram: @yourhandle &nbsp; • &nbsp; WhatsApp: +92 XXX XXXXXXX</p><div class="buttons" style="justify-content:center"><a class="btn primary" href="mailto:hello@andaz.pk">Email Andaz</a></div></div></section>
+</main>
+<footer>© 2026 Andaz — Women's Stitched Collection</footer>
+</body></html>
